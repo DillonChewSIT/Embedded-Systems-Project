@@ -1,0 +1,5 @@
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_state_init.c:7:6:Uart_Init	16	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_state_init.c:35:6:Flag_Init	4	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_state_init.c:45:6:Pixy_Init	4	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_state_init.c:67:6:Motor_Init	4	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_state_init.c:73:6:String_Init	24	static

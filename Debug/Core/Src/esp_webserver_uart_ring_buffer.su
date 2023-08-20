@@ -1,0 +1,7 @@
+../Core/Src/esp_webserver_uart_ring_buffer.c:7:6:ClearAllData	24	static
+../Core/Src/esp_webserver_uart_ring_buffer.c:19:6:StartReceiver	24	static
+../Core/Src/esp_webserver_uart_ring_buffer.c:26:6:Transmit	32	static
+../Core/Src/esp_webserver_uart_ring_buffer.c:45:6:TransmitESP	16	static
+../Core/Src/esp_webserver_uart_ring_buffer.c:65:6:TransmitMOT	16	static
+../Core/Src/esp_webserver_uart_ring_buffer.c:84:6:RecordIntoCirc	24	static
+../Core/Src/esp_webserver_uart_ring_buffer.c:123:6:PrintError	16	static

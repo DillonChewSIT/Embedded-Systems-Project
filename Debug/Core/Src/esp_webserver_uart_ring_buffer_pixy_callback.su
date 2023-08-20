@@ -1,0 +1,6 @@
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_callback.c:7:6:HAL_SPI_TxRxCpltCallback	16	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_callback.c:15:6:HAL_SPI_TxCpltCallback	16	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_callback.c:23:6:HAL_SPI_RxCpltCallback	16	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_callback.c:31:6:HAL_UART_TxCpltCallback	24	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_callback.c:45:6:HAL_UARTEx_RxEventCallback	24	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_callback.c:70:6:HAL_UART_ErrorCallback	16	static

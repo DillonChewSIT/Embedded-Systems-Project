@@ -1,0 +1,5 @@
+../Core/Src/esp_webserver_uart_ring_buffer_pixy.c:7:6:prepend	4528	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy.c:29:6:WordSearch	40	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy.c:139:9:AFC1Search	40	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy.c:214:6:findFeature	24	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy.c:287:6:printLCD	40	static

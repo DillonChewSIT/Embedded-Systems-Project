@@ -1,0 +1,3 @@
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_html.c:7:6:Auto_Init	2528	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_html.c:111:6:RequestHandle	24	static
+../Core/Src/esp_webserver_uart_ring_buffer_pixy_html.c:200:6:ToggleLED	16	static

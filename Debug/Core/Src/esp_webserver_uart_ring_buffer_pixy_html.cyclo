@@ -1,0 +1,3 @@
+esp_webserver_uart_ring_buffer_pixy_html.c:7:6:Auto_Init	32
+esp_webserver_uart_ring_buffer_pixy_html.c:111:6:RequestHandle	21
+esp_webserver_uart_ring_buffer_pixy_html.c:200:6:ToggleLED	5

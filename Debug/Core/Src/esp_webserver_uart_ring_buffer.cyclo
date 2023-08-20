@@ -1,0 +1,7 @@
+esp_webserver_uart_ring_buffer.c:7:6:ClearAllData	2
+esp_webserver_uart_ring_buffer.c:19:6:StartReceiver	1
+esp_webserver_uart_ring_buffer.c:26:6:Transmit	4
+esp_webserver_uart_ring_buffer.c:45:6:TransmitESP	4
+esp_webserver_uart_ring_buffer.c:65:6:TransmitMOT	4
+esp_webserver_uart_ring_buffer.c:84:6:RecordIntoCirc	5
+esp_webserver_uart_ring_buffer.c:123:6:PrintError	11

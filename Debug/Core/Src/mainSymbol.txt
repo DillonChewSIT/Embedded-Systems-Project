@@ -1,0 +1,339 @@
+
+main.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.ITM_SendChar	00000000 .text.ITM_SendChar
+00000000 l     F .text.ITM_SendChar	0000004e ITM_SendChar
+00000000 l    d  .bss.hi2c1	00000000 .bss.hi2c1
+00000000 l    d  .bss.huart1	00000000 .bss.huart1
+00000000 l    d  .bss.huart2	00000000 .bss.huart2
+00000000 l    d  .bss.hdma_usart1_rx	00000000 .bss.hdma_usart1_rx
+00000000 l    d  .bss.hdma_usart1_tx	00000000 .bss.hdma_usart1_tx
+00000000 l    d  .bss.hdma_usart2_rx	00000000 .bss.hdma_usart2_rx
+00000000 l    d  .bss.hdma_usart2_tx	00000000 .bss.hdma_usart2_tx
+00000000 l    d  .data.delay_value	00000000 .data.delay_value
+00000000 l    d  .bss.buffArray	00000000 .bss.buffArray
+00000000 l    d  .bss.stateMachine	00000000 .bss.stateMachine
+00000000 l    d  .bss.tcpAdd	00000000 .bss.tcpAdd
+00000000 l    d  .bss.uartState	00000000 .bss.uartState
+00000000 l    d  .bss.rxhandle	00000000 .bss.rxhandle
+00000000 l    d  .bss.txhandle	00000000 .bss.txhandle
+00000000 l    d  .bss.modeFlag	00000000 .bss.modeFlag
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .text.main	00000000 .text.main
+00000000 l     F .text.MX_GPIO_Init	000000fc MX_GPIO_Init
+00000000 l     F .text.MX_DMA_Init	0000006c MX_DMA_Init
+00000000 l     F .text.MX_USART2_UART_Init	00000060 MX_USART2_UART_Init
+00000000 l     F .text.MX_USART1_UART_Init	00000060 MX_USART1_UART_Init
+00000000 l     F .text.MX_I2C1_Init	00000080 MX_I2C1_Init
+00000000 l    d  .text.SystemClock_Config	00000000 .text.SystemClock_Config
+00000000 l    d  .text.MX_I2C1_Init	00000000 .text.MX_I2C1_Init
+00000000 l    d  .text.MX_USART1_UART_Init	00000000 .text.MX_USART1_UART_Init
+00000000 l    d  .text.MX_USART2_UART_Init	00000000 .text.MX_USART2_UART_Init
+00000000 l    d  .text.MX_DMA_Init	00000000 .text.MX_DMA_Init
+00000000 l    d  .text.MX_GPIO_Init	00000000 .text.MX_GPIO_Init
+00000000 l    d  .text.Uart_Init	00000000 .text.Uart_Init
+00000000 l    d  .text.Auto_Init	00000000 .text.Auto_Init
+00000000 l    d  .text.HAL_UARTEx_RxEventCallback	00000000 .text.HAL_UARTEx_RxEventCallback
+00000000 l    d  .text.HAL_UART_ErrorCallback	00000000 .text.HAL_UART_ErrorCallback
+00000000 l    d  .text.wordsearch	00000000 .text.wordsearch
+00000000 l    d  .text.printLCD	00000000 .text.printLCD
+00000000 l    d  .text.prepend	00000000 .text.prepend
+00000000 l    d  .text.PrintError	00000000 .text.PrintError
+00000000 l    d  .text.Request	00000000 .text.Request
+00000000 l    d  .text._write	00000000 .text._write
+00000000 l    d  .text.HAL_GPIO_EXTI_Callback	00000000 .text.HAL_GPIO_EXTI_Callback
+00000000 l    d  .text.GetExpiryValTick	00000000 .text.GetExpiryValTick
+00000000 l    d  .text.Error_Handler	00000000 .text.Error_Handler
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l       .group	00000000 wm4.0.eb88867387171a31a958b216dccd0a65
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_conf.h.22.91621a0b941f6a0438a0236c8d4ffe32
+00000000 l       .group	00000000 wm4.stm32f3xx.h.39.3063a406c72e75ca531b460b0f757967
+00000000 l       .group	00000000 wm4.stm32f303xe.h.35.08ac904beb1ec084fb8993fe5e168a64
+00000000 l       .group	00000000 wm4._newlib_version.h.4.bfdf54b0af045d4a71376ae00f63a22c
+00000000 l       .group	00000000 wm4.features.h.33.318b64d71e0957639cfb30f1db1f7ec8
+00000000 l       .group	00000000 wm4._default_types.h.15.247e5cd201eca3442cbf5404108c4935
+00000000 l       .group	00000000 wm4._intsup.h.10.48bafbb683905c4daa4565a85aeeb264
+00000000 l       .group	00000000 wm4._stdint.h.10.c24fa3af3bc1706662bb5593a907e841
+00000000 l       .group	00000000 wm4.stdint.h.23.d53047a68f4a85177f80b422d52785ed
+00000000 l       .group	00000000 wm4.cmsis_version.h.32.4d5822004c01a829a975260e854b5f8e
+00000000 l       .group	00000000 wm4.core_cm4.h.66.e4ff136c4a17abc46741866f64f8e729
+00000000 l       .group	00000000 wm4.cmsis_gcc.h.26.6774fe91202d65f4d5ffcff60e00da34
+00000000 l       .group	00000000 wm4.core_cm4.h.174.059a5e001a9e729091d1407208e93224
+00000000 l       .group	00000000 wm4.mpu_armv7.h.32.27b4593cb2f8d3152ca5d97a9d72b321
+00000000 l       .group	00000000 wm4.stm32f303xe.h.771.c4ed673970669a02f28f4c9d5fbe1569
+00000000 l       .group	00000000 wm4.stm32f3xx.h.175.752c21546779708ad6530dde8de0bc71
+00000000 l       .group	00000000 wm4.stm32_hal_legacy.h.23.59f3e1c7347e0b7f327610f207a37a46
+00000000 l       .group	00000000 wm4.stddef.h.39.144cf5ddcd53cbfdac30259dc1a6c87f
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_def.h.58.5a6348db037b8a3e93736727c2aa2151
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_rcc.h.48.3d5136f47dd09ef5ee681003d7bde01c
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_rcc_ex.h.22.f4da52646b16d8caee4082fc3670c494
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_gpio.h.22.e9407167030b77e88f0473ca28a9abaf
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_gpio_ex.h.22.9b7f32a794b23b41803df78b46ac5d96
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_exti.h.22.95eb0ba7947667a20b79a61a0b36dfcc
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_dma.h.22.4fd4d8f63d596e77e9a78be2185e434e
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_dma_ex.h.22.218ed6bcbc0e2e37a57bdb1c33dd19c7
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_dma.h.407.6f3f60fb89661fef1bb0a4e6d734bbbc
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_cortex.h.22.c77ec939767703524c7c64d170a4a700
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_flash.h.22.f2b786ea6e8ac4da1160baf555f357fa
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_flash_ex.h.22.8c81cc6b5f6e79497126dfbb0d49c47a
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_i2c.h.22.65b397b7bfc3094c235c96f6ffe8c13c
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_i2c_ex.h.22.457b494cc18954fce2c4f187cffe8154
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_i2c.h.735.29c5c5991daa5da89187782bbdcd04ce
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_pwr.h.22.b348fc7be0dff87e63c0654cbb5f1bd4
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_pwr_ex.h.22.cf0a1c0aae416249b9b3f2530f1261eb
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_uart.h.22.3a00bd6c553ab72b5d4cf6de70a82769
+00000000 l       .group	00000000 wm4.stm32f3xx_hal_uart_ex.h.22.5c1af809ce88557ec47ba26d7e8c2282
+00000000 l       .group	00000000 wm4.stm32f3xx_hal.h.44.ea24a1d1ae4530b0fa317be99eed482f
+00000000 l       .group	00000000 wm4.main.h.60.0c32207517c7e7d57f4353ae1b183a5e
+00000000 l       .group	00000000 wm4.newlib.h.8.4679f89e52c9f69cd44f3a27cd28c759
+00000000 l       .group	00000000 wm4.ieeefp.h.77.c88535c35f465c05b101960cf0179075
+00000000 l       .group	00000000 wm4.config.h.224.79362c3cdb280fe0b8d95bd0bc4d5c54
+00000000 l       .group	00000000 wm4._ansi.h.31.de524f58584151836e90d8620a16f8e8
+00000000 l       .group	00000000 wm4.stdio.h.31.7c0e28c411445f3f9c5b11accf882760
+00000000 l       .group	00000000 wm4.stddef.h.155.ba788add86a0e365f264484f110c3c29
+00000000 l       .group	00000000 wm4.cdefs.h.49.39045112216f6a021dbdffe3bf5accce
+00000000 l       .group	00000000 wm4.stdarg.h.34.3a23a216c0c293b3d2ea2e89281481e6
+00000000 l       .group	00000000 wm4._types.h.20.dd0d04dca3800a0d2a6129b87f3adbb2
+00000000 l       .group	00000000 wm4.stddef.h.155.3588ebfdd1e8c7ede80509bb9c3b8009
+00000000 l       .group	00000000 wm4._types.h.127.34941de1b2539d59d5cac00e0dd27a45
+00000000 l       .group	00000000 wm4.reent.h.17.e292bf8b0bec6c96e131a54347145a30
+00000000 l       .group	00000000 wm4.lock.h.2.1461d1fff82dffe8bfddc23307f6484f
+00000000 l       .group	00000000 wm4.reent.h.77.32fd7d280fc2a40b0797abce5beaf6e3
+00000000 l       .group	00000000 wm4.assert.h.11.db24e541f16414db224bf986d21017e2
+00000000 l       .group	00000000 wm4.reent.h.504.40d20ade344680fbcb6a0178bf7ae09e
+00000000 l       .group	00000000 wm4.types.h.40.8b6acba56cefbb11746718204edc8f5e
+00000000 l       .group	00000000 wm4._endian.h.31.65a10590763c3dde1ac4a7f66d7d4891
+00000000 l       .group	00000000 wm4.endian.h.9.49f3a4695c1b61e8a0808de3c4a106cb
+00000000 l       .group	00000000 wm4._timeval.h.32.bec3221fa7a9bb0bdde696c9c57e47d2
+00000000 l       .group	00000000 wm4.timespec.h.41.d855182eb0e690443ab8651bcedca6e1
+00000000 l       .group	00000000 wm4.select.h.19.40cd3f2bfc456b193b790c2754690ebf
+00000000 l       .group	00000000 wm4.types.h.51.5571ec98f267d17d3c670b7a3ba33afa
+00000000 l       .group	00000000 wm4.sched.h.22.c60982713a5c428609783c78f9c78d95
+00000000 l       .group	00000000 wm4._pthreadtypes.h.36.fcee9961c35163dde6267ef772ad1972
+00000000 l       .group	00000000 wm4.stdio.h.2.4aa87247282eca6c8f36f9de33d8df1a
+00000000 l       .group	00000000 wm4.stdio.h.81.60a2ded7dae310b81f9d6907fe5e3dbf
+00000000 l       .group	00000000 wm4.string.h.8.c4b8571ce60dff2817f43fec8b86aecd
+00000000 l       .group	00000000 wm4.string.h.177.59a005921fa78485abc80a0267de5752
+00000000 l       .group	00000000 wm4.ctype.h.2.a1bc82073b5be9e206328f659df46ebe
+00000000 l       .group	00000000 wm4.liquidcrystal_i2c.h.7.92fe030b0a5ed0e95250b093de0a8afb
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 g     O .bss.hi2c1	0000004c hi2c1
+00000000 g     O .bss.huart1	00000084 huart1
+00000000 g     O .bss.huart2	00000084 huart2
+00000000 g     O .bss.hdma_usart1_rx	00000044 hdma_usart1_rx
+00000000 g     O .bss.hdma_usart1_tx	00000044 hdma_usart1_tx
+00000000 g     O .bss.hdma_usart2_rx	00000044 hdma_usart2_rx
+00000000 g     O .bss.hdma_usart2_tx	00000044 hdma_usart2_tx
+00000000 g     O .data.delay_value	00000002 delay_value
+00000000 g     O .bss.buffArray	00002002 buffArray
+00000000 g     O .bss.stateMachine	00000001 stateMachine
+00000000 g     O .bss.tcpAdd	00000004 tcpAdd
+00000000 g     O .bss.uartState	00000020 uartState
+00000000 g     O .bss.rxhandle	00000018 rxhandle
+00000000 g     O .bss.txhandle	00000010 txhandle
+00000000 g     O .bss.modeFlag	00000005 modeFlag
+00000000 g     F .text.main	00000350 main
+00000000         *UND*	00000000 HAL_Init
+00000000 g     F .text.SystemClock_Config	000000ca SystemClock_Config
+00000000 g     F .text.Uart_Init	00000080 Uart_Init
+00000000         *UND*	00000000 HAL_UARTEx_ReceiveToIdle_DMA
+00000000         *UND*	00000000 HAL_GPIO_WritePin
+00000000         *UND*	00000000 HD44780_Init
+00000000         *UND*	00000000 HD44780_Clear
+00000000 g     F .text.GetExpiryValTick	0000003c GetExpiryValTick
+00000000 g     F .text.PrintError	0000012c PrintError
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 HAL_UART_DeInit
+00000000         *UND*	00000000 HAL_DMA_DeInit
+00000000         *UND*	00000000 HAL_UART_Init
+00000000         *UND*	00000000 HAL_DMA_Init
+00000000         *UND*	00000000 puts
+00000000 g     F .text.wordsearch	0000015c wordsearch
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 HAL_UART_Transmit_DMA
+00000000         *UND*	00000000 HAL_GPIO_TogglePin
+00000000 g     F .text.Auto_Init	00000254 Auto_Init
+00000000 g     F .text.printLCD	0000005c printLCD
+00000000         *UND*	00000000 uwTick
+00000000         *UND*	00000000 HAL_RCC_OscConfig
+00000000 g     F .text.Error_Handler	0000000a Error_Handler
+00000000         *UND*	00000000 HAL_RCC_ClockConfig
+00000000         *UND*	00000000 HAL_RCCEx_PeriphCLKConfig
+00000000         *UND*	00000000 HAL_I2C_Init
+00000000         *UND*	00000000 HAL_I2CEx_ConfigAnalogFilter
+00000000         *UND*	00000000 HAL_I2CEx_ConfigDigitalFilter
+00000000         *UND*	00000000 HAL_NVIC_SetPriority
+00000000         *UND*	00000000 HAL_NVIC_EnableIRQ
+00000000         *UND*	00000000 HAL_GPIO_Init
+00000000         *UND*	00000000 strstr
+00000000         *UND*	00000000 memcpy
+00000000 g     F .text.HAL_UARTEx_RxEventCallback	00000098 HAL_UARTEx_RxEventCallback
+00000000 g     F .text.HAL_UART_ErrorCallback	00000048 HAL_UART_ErrorCallback
+00000000         *UND*	00000000 strcmp
+00000000         *UND*	00000000 HD44780_SetCursor
+00000000         *UND*	00000000 HD44780_PrintStr
+00000000         *UND*	00000000 HAL_Delay
+00000000 g     F .text.prepend	00000144 prepend
+00000000 g     F .text.Request	000001d8 Request
+00000000         *UND*	00000000 strchr
+00000000         *UND*	00000000 strcat
+00000000 g     F .text._write	00000038 _write
+00000000 g     F .text.HAL_GPIO_EXTI_Callback	00000058 HAL_GPIO_EXTI_Callback
+
+

@@ -1,0 +1,6 @@
+esp_webserver_uart_ring_buffer_pixy_callback.c:7:6:HAL_SPI_TxRxCpltCallback	2
+esp_webserver_uart_ring_buffer_pixy_callback.c:15:6:HAL_SPI_TxCpltCallback	2
+esp_webserver_uart_ring_buffer_pixy_callback.c:23:6:HAL_SPI_RxCpltCallback	2
+esp_webserver_uart_ring_buffer_pixy_callback.c:31:6:HAL_UART_TxCpltCallback	3
+esp_webserver_uart_ring_buffer_pixy_callback.c:45:6:HAL_UARTEx_RxEventCallback	5
+esp_webserver_uart_ring_buffer_pixy_callback.c:70:6:HAL_UART_ErrorCallback	3
